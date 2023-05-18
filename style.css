@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(181, 179, 179);
+    color: red; 
+}
+object tmp;
+if(objValue instanceof String){
+    tmp=(String)objValue;
+}
+if(objValue instanceof Integer){
+    tmp=(Integer)objValue;
+}
+if(objValue instanceof Double){
+    tmp=(Double)objValue;
+}
+if(objValue instanceof Date){
+    tmp=(Date)objValue;
+}
