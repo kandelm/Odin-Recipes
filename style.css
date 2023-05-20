@@ -1,17 +1,41 @@
 body{
-    background-color: rgb(181, 179, 179);
-    color: red; 
+    background-color:antiquewhite;
+    
 }
-object tmp;
-if(objValue instanceof String){
-    tmp=(String)objValue;
+
+h2{
+    color:red;
 }
-if(objValue instanceof Integer){
-    tmp=(Integer)objValue;
+h1{
+    color:black;
 }
-if(objValue instanceof Double){
-    tmp=(Double)objValue;
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(255, 106, 0);
 }
-if(objValue instanceof Date){
-    tmp=(Date)objValue;
+.Aboutus{
+    color:brown
+}
+.click{
+    color:blue;
+}
+.des{
+    border: 5px solid rgb(7, 4, 4);
+    padding:10px;
+    background-color: rgb(87, 19, 46);
+    margin-bottom: 10px;
+}
+.ingr{
+    border: 5px solid rgb(7, 4, 4);
+    background-color: rgb(87, 19, 46);
+    color:rgb(255, 106, 0);
+    padding:10px;
+    margin-bottom: 10px;
+}
+.dir{
+    border: 5px solid rgb(7, 4, 4);
+    background-color: rgb(87, 19, 46);
+    color:rgb(255, 106, 0);
+    padding:10px;
+    margin-bottom: 10px;
 }
